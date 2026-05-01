@@ -1,3 +1,5 @@
+# 시작
+git init 
 # 기본 
 git add 파일명
 git commit -m '상태메세지'
@@ -6,3 +8,9 @@ git commit -m '상태메세지'
 git add app.txt app2.txt
 git status 
 git log
+
+# 파일변화의 비교
+git commit 전에 사용가능
+
+git difftool을 통해 변화된 걸 비교할 수 있음
+esc누른후(입력모드 종료) -> :q 또는 :qa를 누르면 tool을 종료 할 수 있음
