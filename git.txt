@@ -1,0 +1,8 @@
+# 기본 
+git add 파일명
+git commit -m '상태메세지'
+
+# 여러 파일 스테이징 하려면
+git add app.txt app2.txt
+git status 
+git log
