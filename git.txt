@@ -1,26 +1,31 @@
-# 시작
+## 시작
 git init 
-# 기본 
+# 1.기본 
 git add 파일명
 git commit -m '상태메세지'
 
-# 여러 파일 스테이징 하려면
+# 2.여러 파일 스테이징 하려면
 git add app.txt app2.txt
 git add . 
 git status 
 git log
 
-# 파일변화의 비교
+# 3.파일변화의 비교
 git commit 전에 사용가능
 
 git difftool을 통해 변화된 걸 비교할 수 있음
 esc누른후(입력모드 종료) -> :q 또는 :qa를 누르면 tool을 종료 할 수 있음
 
+git log -all -graph
 
-# branch 사본으로 돌려보고 master라는 메인에 넣기
+# 4.branch 사본으로 돌려보고 master라는 메인에 넣기
 
 # branch라는 사본만들기
-git branch 이름 이후 동일하게 add와 commit을 하면된다
+git branch 이름 ,이후 동일하게 add와 commit을 하면된다
 
 # 다시 메인으로
 git switch master
+
+# branch와 master의 conflict 충돌 
+master와 branch에서 동일한 파일의 동일 위치 코드를 각각 따로수정하면 conflict가
+발생하기 때문에 내가 직접 수동으로 수정해줘야함
