@@ -14,3 +14,12 @@ git commit 전에 사용가능
 
 git difftool을 통해 변화된 걸 비교할 수 있음
 esc누른후(입력모드 종료) -> :q 또는 :qa를 누르면 tool을 종료 할 수 있음
+
+
+# branch 사본으로 돌려보고 master라는 메인에 넣기
+
+# branch라는 사본만들기
+git branch 이름 이후 동일하게 add와 commit을 하면된다
+
+# 다시 메인으로
+git switch master
