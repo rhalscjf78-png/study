@@ -63,3 +63,7 @@ git reset --hard  커밋 아이디 : 이 커밋이 생성된 시점으로 모든
 (협업시엔 사용금지)
 git reset --soft 커밋아이디 : 변동사항 지우지 말고 스테이징해놓가
 git reset --mixed 커밋아이디 : 변동사항 지우지 말고 unstage해놓기
+
+
+#github 사용법 
+1. 컴퓨터 고장나도 안심
