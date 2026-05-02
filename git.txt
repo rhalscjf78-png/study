@@ -45,3 +45,21 @@ branch없이도 코드 잘짜는 고수 같음라고 할 뻔
 2.git rebase 중심브랜치명
 3.중심 브랜치로 이동해서
 4.git merge 새로운 브랜치명
+
+# squash and merge 
+git merhe --squash 새브런치
+
+# git은 버전관리용으로
+파일복구 ,commit 복구
+
+파일 복구하는법  : git restore
+git log --oneline
+git restore 파일명 
+git resotre --source 커밋 아이디
+git restore --staged 파일명
+git revert 커밋아이디1,커밋아이디2 -> 커밋 취소하기
+git revert head 방금 커밋 취소하기
+git reset --hard  커밋 아이디 : 이 커밋이 생성된 시점으로 모든걸 돌려버림
+(협업시엔 사용금지)
+git reset --soft 커밋아이디 : 변동사항 지우지 말고 스테이징해놓가
+git reset --mixed 커밋아이디 : 변동사항 지우지 말고 unstage해놓기
