@@ -29,3 +29,9 @@ git switch master
 # branch와 master의 conflict 충돌 
 master와 branch에서 동일한 파일의 동일 위치 코드를 각각 따로수정하면 conflict가
 발생하기 때문에 내가 직접 수동으로 수정해줘야함
+
+
+# branch 삭제
+
+merge 완료된 branch 삭제  git branch -d 브랜치명
+merge 안한 branch 삭제 git branch -D 브랜치명
