@@ -32,6 +32,16 @@ master와 branch에서 동일한 파일의 동일 위치 코드를 각각 따로
 
 
 # branch 삭제
-
 merge 완료된 branch 삭제  git branch -d 브랜치명
 merge 안한 branch 삭제 git branch -D 브랜치명
+
+# rebase 쓰는 이유?
+branch없이도 코드 잘짜는 고수 같음라고 할 뻔
+간단하고 짧은 브랜치들은 이거 쓰면 깔끔해 보이기 때문임
+다만, conflict 엔딩 많이 난다잉
+
+# 워떠께 씀?
+1.새로운 브랜치로 이동 
+2.git rebase 중심브랜치명
+3.중심 브랜치로 이동해서
+4.git merge 새로운 브랜치명
