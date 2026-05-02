@@ -1,3 +1,9 @@
 충돌연습입니다. 밥먹고 씻고 준비하고 끝내겠습니다.
+<<<<<<< HEAD
 네네네네넨네
 아니여 ddddddddddddddddd
+=======
+충돌연습은 끝났나요? 끝났스ㅡㅂ니다.
+아니여 ddddddddddddddddd
+
+>>>>>>> branch연습용
